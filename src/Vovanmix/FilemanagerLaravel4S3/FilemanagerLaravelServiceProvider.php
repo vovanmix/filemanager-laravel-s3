@@ -18,7 +18,7 @@ class FilemanagerLaravelServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('Vovanmix/FilemanagerLaravel');
+		$this->package('Vovanmix/FilemanagerLaravel4S3');
 	}
 
 	/**

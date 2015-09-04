@@ -18,7 +18,7 @@ class FilemanagerLaravelS3ServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('Vovanmix/FilemanagerLaravel');
+		$this->package('Vovanmix/FilemanagerLaravel4S3');
 	}
 
 	/**
@@ -29,12 +29,12 @@ class FilemanagerLaravelS3ServiceProvider extends ServiceProvider {
 	public function register()
 	{
 		$this->app['FilemanagerLaravel'] = $this->app->share( function($app){
-			return new FilemanagerLaravel;
+			return new FilemanagerLaravelS3;
 		});
 		$this->app->booting(function()
 		{
 		  $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-		  $loader->alias('FilemanagerLaravel', 'Vovanmix\FilemanagerLaravel4S3\Facades\FilemanagerLaravelS3');
+		  $loader->alias('FilemanagerLaravel', 'Vovanmix\FilemanagerLaravel4S3\Facades\FilemanagerLaravel');
 		});
 	}
 

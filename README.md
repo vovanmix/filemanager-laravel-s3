@@ -10,7 +10,7 @@ Based on https://github.com/simogeo/Filemanager
 Edit your `composer.json`.
 
 	"require": {
-		"vovanmix/filemanager-laravel4-S3": "1.*"
+		"vovanmix/filemanager-laravel4-s3": "1.*"
 	}
 
 Run
@@ -29,4 +29,4 @@ Add in routes.php
 
 Copy your filemanager folder to public
 
-	php artisan asset:publish --path="vendor/Vovanmix/filemanager-laravel4-S3/public" "../"
+	php artisan asset:publish --path="vendor/Vovanmix/filemanager-laravel4-s3/public" "../"

@@ -20,11 +20,11 @@ Run
 Add to your file app.php
 if you ant to use S3:
 
-	'Vovanmix\FilemanagerLaravel\FilemanagerLaravelS3ServiceProvider',
+	'Vovanmix\FilemanagerLaravel4S3\FilemanagerLaravelS3ServiceProvider',
 
 For store file locally:
 
-	'Vovanmix\FilemanagerLaravel\FilemanagerLaravelServiceProvider',
+	'Vovanmix\FilemanagerLaravel4S3\FilemanagerLaravelServiceProvider',
 
 Add in routes.php
 

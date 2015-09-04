@@ -1,6 +1,6 @@
 <?php
 
-namespace Vovanmix\FilemanagerLaravel;
+namespace Vovanmix\FilemanagerLaravel4S3;
 
 class FilemanagerLaravelS3
 {

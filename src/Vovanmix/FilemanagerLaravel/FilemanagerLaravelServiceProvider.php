@@ -1,4 +1,4 @@
-<?php namespace Vovanmix\FilemanagerLaravel;
+<?php namespace Vovanmix\FilemanagerLaravel4S3;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -34,7 +34,7 @@ class FilemanagerLaravelServiceProvider extends ServiceProvider {
 		$this->app->booting(function()
 		{
 		  $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-		  $loader->alias('FilemanagerLaravel', 'Vovanmix\FilemanagerLaravel\Facades\FilemanagerLaravel');
+		  $loader->alias('FilemanagerLaravel', 'Vovanmix\FilemanagerLaravel4S3\Facades\FilemanagerLaravel');
 		});
 	}
 

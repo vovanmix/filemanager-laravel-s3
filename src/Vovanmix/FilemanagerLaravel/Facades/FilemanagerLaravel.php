@@ -1,4 +1,4 @@
-<?php namespace Vovanmix\FilemanagerLaravel\Facades;
+<?php namespace Vovanmix\FilemanagerLaravel4S3\Facades;
  
 use Illuminate\Support\Facades\Facade;
  

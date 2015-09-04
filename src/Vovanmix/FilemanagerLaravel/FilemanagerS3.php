@@ -1,10 +1,10 @@
 <?php
 
-namespace Vovanmix\FilemanagerLaravel;
+namespace Vovanmix\FilemanagerLaravel4S3;
 
 use Aws\S3\Enum\CannedAcl;
 use Aws\S3\S3Client;
-use Pqb\FilemanagerLaravel\Filemanager;
+use Vovanmix\FilemanagerLaravel4S3\Filemanager;
 
 class FilemanagerS3 extends Filemanager {
 	/*******************************************************************************

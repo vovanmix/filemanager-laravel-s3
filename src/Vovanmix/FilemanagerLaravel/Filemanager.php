@@ -1,5 +1,5 @@
 <?php
-namespace Vovanmix\FilemanagerLaravel;
+namespace Vovanmix\FilemanagerLaravel4S3;
 use Intervention\Image\ImageManagerStatic as Image;
 class Filemanager
 {

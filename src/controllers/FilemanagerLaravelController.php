@@ -6,7 +6,7 @@ class FilemanagerLaravelController extends BaseController {
 	}
 	public function getShow()
 	{
-		return View::make('FilemanagerLaravel::filemanager.index');
+		return View::make('FilemanagerLaravel4S3::filemanager.index');
 	}
 	public function getConnectors()
 	{

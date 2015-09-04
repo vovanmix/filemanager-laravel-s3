@@ -1,11 +1,17 @@
 {
-    "name": "Vovanmix/filemanager-laravel",
-    "description": "Filemanager for Laravel 4",
+    "name": "Vovanmix/filemanager-laravel4-S3",
+    "description": "Filemanager for Laravel 4 with S3 integration",
     "license": "MIT",
     "authors": [
         {
             "name": "Guillermo M.",
             "email": "guille_55_88@hotmail.com"
+        },
+        {
+          "name": "Vladimir Mikhaylovskiy",
+          "email": "singingcode@gmail.com",
+          "homepage": "http://www.vprogrammer.com",
+          "role": "Developer"
         }
     ],
     "require": {
@@ -19,7 +25,7 @@
             "src/controllers"
         ],
         "psr-0": {
-            "Vovanmix\\FilemanagerLaravel\\": "src/"
+            "Vovanmix\\FilemanagerLaravel4S3\\": "src/"
         }
     },
     "minimum-stability": "stable"

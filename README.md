@@ -10,7 +10,7 @@ Basado de https://github.com/simogeo/Filemanager
 Edita tu `composer.json`.
 
 	"require": {
-		"pqb/filemanager-laravel": "1.*"
+		"Vovanmix/filemanager-laravel": "1.*"
 	}
 
 Ejecuta
@@ -19,11 +19,11 @@ Ejecuta
 
 Agrega en tu archivo app.php
 
-	'Pqb\FilemanagerLaravel\FilemanagerLaravelServiceProvider',
+	'Vovanmix\FilemanagerLaravel\FilemanagerLaravelServiceProvider',
 
 Y en el Facade
 
-	'FilemanagerLaravel'=> 'Pqb\FilemanagerLaravel\Facades\FilemanagerLaravel',
+	'FilemanagerLaravel'=> 'Vovanmix\FilemanagerLaravel\Facades\FilemanagerLaravel',
 
 Agrega en routes.php
 
@@ -33,7 +33,7 @@ Agrega en routes.php
 
 Copia las carpetas filemanager y tinymce a tu carpeta public
 
-	php artisan asset:publish --path="vendor/pqb/filemanager-laravel/public" "../"
+	php artisan asset:publish --path="vendor/Vovanmix/filemanager-laravel/public" "../"
 
 Para que carge tinymce con el plugin filemanager agrega:
 

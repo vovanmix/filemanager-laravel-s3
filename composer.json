@@ -1,5 +1,5 @@
 {
-    "name": "pqb/filemanager-laravel",
+    "name": "Vovanmix/filemanager-laravel",
     "description": "Filemanager for Laravel 4",
     "license": "MIT",
     "authors": [
@@ -19,7 +19,7 @@
             "src/controllers"
         ],
         "psr-0": {
-            "Pqb\\FilemanagerLaravel\\": "src/"
+            "Vovanmix\\FilemanagerLaravel\\": "src/"
         }
     },
     "minimum-stability": "stable"

@@ -1,5 +1,5 @@
 <?php
-namespace Pqb\FilemanagerLaravel;
+namespace Vovanmix\FilemanagerLaravel;
 class FilemanagerLaravel
 {
 	public static function Filemanager(){

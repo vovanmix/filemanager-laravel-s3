@@ -2,13 +2,13 @@
  
 use Illuminate\Support\Facades\Facade;
  
-class FilemanagerLaravel extends Facade {
+class FilemanagerLaravelS3 extends Facade {
  
   /**
    * Get the registered name of the component.
    *
    * @return string
    */
-  protected static function getFacadeAccessor() { return 'FilemanagerLaravel'; }
+  protected static function getFacadeAccessor() { return 'FilemanagerLaravelS3'; }
  
 }

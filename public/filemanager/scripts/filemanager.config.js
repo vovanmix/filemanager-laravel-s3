@@ -18,8 +18,9 @@
         "dateFormat": "d M Y H:i",
         "serverRoot": true,
         "fileRoot": false,
-        "relPath": false,
+        "relPath": "",
         "logger": false,
+        "useS3": true,
         "capabilities": ["select", "download", "rename", "delete", "replace"],
         "plugins": []
     },

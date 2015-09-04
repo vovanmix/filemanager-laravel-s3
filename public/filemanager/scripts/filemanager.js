@@ -560,8 +560,8 @@ var createFileTree = function() {
 // contextual menu option in list views. 
 // NOTE: closes the window when finished.
 var selectItem = function(data) {
-	if(config.options.relPath !== false ) {
-		var url = relPath + data['Path'].replace(fileRoot,""); 
+	if(config.options.useS3 === false ) {
+		var url = relPath + data['Path'].replace(fileRoot,"");
 	} else {
 		var url = relPath + data['Path'];
 	}

@@ -1,2 +1,4 @@
 <?php
-Route::controller('filemanager', 'FilemanagerLaravelController');
+Route::group(array('before' => 'auth'), function(){
+	Route::controller('filemanager', 'FilemanagerLaravelController');
+});

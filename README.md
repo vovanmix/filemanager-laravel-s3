@@ -18,6 +18,11 @@ Run
 	composer update
 
 Add to your file app.php
+if you ant to use S3:
+
+	'Vovanmix\FilemanagerLaravel\FilemanagerLaravelS3ServiceProvider',
+
+For store file locally:
 
 	'Vovanmix\FilemanagerLaravel\FilemanagerLaravelServiceProvider',
 

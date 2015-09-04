@@ -2,7 +2,7 @@
 
 use Illuminate\Support\ServiceProvider;
 
-class FilemanagerLaravelServiceProvider extends ServiceProvider {
+class FilemanagerLaravelS3ServiceProvider extends ServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.

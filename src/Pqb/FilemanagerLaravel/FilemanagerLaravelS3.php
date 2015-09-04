@@ -2,10 +2,10 @@
 
 namespace Vovanmix\FilemanagerLaravel;
 
-class FilemanagerLaravel
+class FilemanagerLaravelS3
 {
 	public static function Filemanager(){
-		return new Filemanager;
+		return new FilemanagerS3;
 	}
 
 }

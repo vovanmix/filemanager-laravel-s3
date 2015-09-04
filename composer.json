@@ -1,5 +1,5 @@
 {
-    "name": "Vovanmix/filemanager-laravel4-S3",
+    "name": "vovanmix/filemanager-laravel4-s3",
     "description": "Filemanager for Laravel 4 with S3 integration",
     "license": "MIT",
     "authors": [
